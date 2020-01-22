@@ -1,0 +1,32 @@
+{
+  "name": "anydoor-wjr",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "anydoor": "bin/anydoor-wjr"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrwang8/anydoor-wjr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrwang8/anydoor-wjr/issues"
+  },
+  "homepage": "https://github.com/jrwang8/anydoor-wjr#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "handlebars": "^4.7.2",
+    "yargs": "^15.1.0"
+  }
+}
